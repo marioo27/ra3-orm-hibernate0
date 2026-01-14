@@ -18,7 +18,7 @@ public class Main {
         EntityManager em = null;
         EntityTransaction trans = null;
 
-        Alumno al = new Alumno("Juan", "juan@ciudadescolar.es");
+        Alumno al = new Alumno("Juan", "juan2@ciudadescolar.es");
         try {
             em = EMF.createEntityManager();
             trans = em.getTransaction();
