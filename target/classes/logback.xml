@@ -8,7 +8,7 @@
 	</appender>
 	
 	<appender name="Fichero" class="ch.qos.logback.core.FileAppender">
-		<file>curso2526_UD5_ORM_Hibernate_JPA.log</file>
+		<file>curso2526_UD5_ORM_Hibernate_JPA0.log</file>
 		<encoder>
 			<pattern>%d [%thread] %-5level %-40logger{50} - %msg%n</pattern>
 		</encoder>

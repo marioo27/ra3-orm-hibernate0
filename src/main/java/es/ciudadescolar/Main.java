@@ -44,6 +44,10 @@ public class Main {
                 em.close();
                 LOG.debug("Se ha cerrado la conexion con la BD");
             }
+            if (EMF.isOpen()) {
+                EMF.close();
+                LOG.debug("Se ha cerrado la conexion con la BD");
+            }
         }
 
     }
